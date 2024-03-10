@@ -1,10 +1,6 @@
+import React from "react"
+export const Navbar=()=> {
  
-import React, { Component } from 'react'
-
-export class Navbar extends Component {
- 
-
-  render() {
     return (
       <div>
         <nav className="navbar text-center fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -15,7 +11,8 @@ export class Navbar extends Component {
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      {/* <li className="nav-item active">
+      {/*
+       <li className="nav-item active">
         <a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
@@ -24,7 +21,8 @@ export class Navbar extends Component {
       <li className="nav-item">
         <a className='nav-link' href="/#">Contact</a>
       </li>  */}
-      {/* <li className="nav-item active"><a href="/business" className="nav-link">Home</a></li> */}
+      {/* <li className="nav-item active"><a href="/business" className="nav-link">Home</a></li> 
+      */}
       <li className="nav-item active" ><a href="/business" className="nav-link">Business</a></li>
       <li className="nav-item"><a href="/entertainment" className="nav-link">Entertainment</a></li>
       <li className="nav-item"><a href="/general" className="nav-link">General</a></li>
@@ -42,6 +40,6 @@ export class Navbar extends Component {
       </div>
     )
   }
-}
+
 
 export default Navbar
