@@ -29,7 +29,7 @@ import Footer from './components/Footer'
         
       />
                   <Routes>
-                    <Route path="home/" element={ <News setProgress={setProgress} apiKey={apiKey} pageSize={3} country="in" category='business'/>} />
+                    <Route path="/" element={ <News setProgress={setProgress} apiKey={apiKey} pageSize={6} country="in" category='business'/>} />
                     <Route path="business/" element={ <News setProgress={setProgress} apiKey={apiKey} pageSize={6} country="in" category='business'/>} />
                     <Route path="entertainment/" element={ <News setProgress={setProgress} apiKey={apiKey} pageSize={6} country="in" category='entertainment'/>} />
                     <Route path="general/" element={ <News setProgress={setProgress} apiKey={apiKey} pageSize={6} country="in" category='general'/>} />
